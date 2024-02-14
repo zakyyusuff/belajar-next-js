@@ -1,0 +1,32 @@
+/* zaky.module.css */
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex; /* Membuat semua elemen menjadi flex */
+  flex-direction: column; /* Mengatur arah tata letak menjadi vertikal (atas-bawah) */
+  justify-content: center; /* Menengahkan elemen secara horizontal */
+  align-items: center; /* Menengahkan elemen secara vertikal */
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.paragraph {
+  font-size: 16px;
+  color: #666;
+}
+
+.image {
+  width: 200px;
+  height: auto;
+  margin-top: 20px;
+}
